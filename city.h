@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
+#include "pokemon.h"
 
 const std::string promptPallet = R"(
 ****************Pallet City*******************

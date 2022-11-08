@@ -6,6 +6,7 @@
 #include <windows.h>
 #include "city.h"
 
+
 const std::string promptIntro = R"(
 ****************Pallet City*******************
 *                                            *

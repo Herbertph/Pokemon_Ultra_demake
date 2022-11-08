@@ -5,6 +5,7 @@
 #include <windows.h>
 #include "city.h"
 #include "util.h"
+#include "pokemon.h"
 
 const std::string prompt = R"(
 **********POKEMOM ULTRA demake***************
@@ -18,8 +19,15 @@ const std::string prompt = R"(
 
 int main()
 {
+   pokemon pokemon("Bubassaur", 1, 1);
+   
+  
+   std::cout << pokemon.getName() << "\n";
+   std::cout << pokemon.getLevel() << "\n";
+   std::cout << pokemon.getType() << "\n";
     
-    std::cout << prompt;
+
+   /*std::cout << prompt;
 
     while (true)
     {
@@ -46,8 +54,8 @@ int main()
             std::cout << "Please enter a valid selection.\n";
         system("PAUSE");
 
-    }
-
+    }*/
+    
 }
 
 

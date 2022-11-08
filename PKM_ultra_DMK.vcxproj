@@ -129,10 +129,14 @@
   <ItemGroup>
     <ClCompile Include="city.cpp" />
     <ClCompile Include="PKM_ultra_DMK.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="pokemon.cpp" />
     <ClCompile Include="util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="city.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="pokemon.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
