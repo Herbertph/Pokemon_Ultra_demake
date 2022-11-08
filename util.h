@@ -75,9 +75,6 @@ public:
 		
 		return 0;
 	}
-	void player() {
-		int x{};
-
-	}
+	
 };
 
